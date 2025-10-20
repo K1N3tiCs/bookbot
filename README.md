@@ -1,2 +1,1 @@
-# bookbot
-Returns the total words in book and number of characters used in the book.
+BookBot is my first [Boot.dev](https://www.boot.dev) project!
