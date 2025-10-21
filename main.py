@@ -1,4 +1,9 @@
-from stats import get_book_text, get_total_words, get_total_characters, sort_on_1 # ,helper
+from stats import (
+    get_book_text,
+    get_total_words,
+    get_total_characters,
+    sort_on_1
+)
 import sys
 
 def main():
@@ -11,6 +16,5 @@ def main():
     print(get_total_words(file_content))
     (sort_on_1(get_total_characters(file_content)))
     print('-' * 11 + 'END' + '-' * 11)
-    # print(helper(get_total_characters(file_content)))
 
 main()
